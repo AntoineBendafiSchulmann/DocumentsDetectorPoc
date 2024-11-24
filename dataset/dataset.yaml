@@ -1,0 +1,5 @@
+train: ../dataset/generated/images 
+val: ../dataset/generated/images
+
+nc: 1 
+names: ['book'] 

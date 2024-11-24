@@ -1,0 +1,58 @@
+# === Fichiers et dossiers générés par Python ===
+venv/
+yolo_env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Fichiers de configuration ou spécifiques à l'environnement ===
+*.env
+*.DS_Store
+.vscode/
+.idea/
+
+# === Checkpoints de training ===
+runs/
+
+# === Poids du modèle et autres fichiers volumineux générés ===
+*.h5
+*.pt
+*.onnx
+
+# === Dataset généré ===
+dataset/generated/images/
+dataset/generated/labels/
+!dataset/generated/labels.cache  
+
+# Ignorer le contenu de `dataset/original` 
+dataset/original/*
+
+# Conserve le dataset YAML et les données originales
+!dataset/generated/
+!dataset/original/
+
+# === Fichiers spécifiques au frontend (si applicables) ===
+node_modules/
+*.log
+
+# === Fichiers temporaires ou de compilation ===
+*.swp
+*.bak
+*.tmp
+
+# === Fichiers TensorFlow.js (si non nécessaires) ===
+js_model/
+
+# === Logs, caches et fichiers temporaires ===
+*.log
+*.cache
+
+# === Fichiers spécifiques à Windows ===
+Thumbs.db
+desktop.ini
+
+# === Exceptions spécifiques ===
+!.gitignore  
+
+yolov5/
